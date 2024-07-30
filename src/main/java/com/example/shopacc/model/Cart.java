@@ -19,4 +19,12 @@ public class Cart {
     @JoinColumn
     private Product product;
 
+    @Override
+    public String toString() {
+        return "Cart{" +
+                "id=" + id +
+                ", account=" + account +
+                ", product=" + product +
+                '}';
+    }
 }

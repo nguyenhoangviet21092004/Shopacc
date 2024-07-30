@@ -22,6 +22,10 @@ public class Product {
     private String skin;
     private String status;
 
+    @ManyToOne
+    @JoinColumn
+    private Account account;
+
 
 
 }
